@@ -27,9 +27,16 @@
 
 ### Builder
 
-Construct object step by step: each step is independent
+Construct object step by step: each step is independent, without telescoping constructor
 
-Pros: same constructor, isolation
-Cons: complex
+- Pros: same constructor, isolation
+- Cons: complex
+
+#### Components
+
+- Client
+- Director
+- Builder interface
+- Builders
 
 

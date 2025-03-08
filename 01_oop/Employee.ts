@@ -1,5 +1,3 @@
-import { AEmployee } from "./AEmployee";
-
 // encapsulation
 export class Employee {
   private jobCode: number;
