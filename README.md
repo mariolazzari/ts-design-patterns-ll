@@ -32,11 +32,27 @@ Construct object step by step: each step is independent, without telescoping con
 - Pros: same constructor, isolation
 - Cons: complex
 
-#### Components
+#### Structure
 
 - Client
 - Director
 - Builder interface
 - Builders
+
+### Factory
+
+Defines an interface or an abstract class for object creation: subclasses are responsible for creating instances.
+It's useful when you do not not dependencies, like whn you are building libs of frameworks.
+
+- Allow users to customize their usage
+- Reuse existing objects
+- Pros: loose coupling, move class creation in one single place, no breaking changes when introducing new classes
+- Cons: too many subclasses
+
+#### Structure
+
+- Creator
+- Product interface
+- Concrete products
 
 
