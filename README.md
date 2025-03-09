@@ -61,3 +61,16 @@ Create family of related objects, using composition of subclasses
 
 - Pros: ensure all classes to work togheter
 - Cons: complex
+
+### Prototype
+
+Creates a copy of an object without being costly, reducing subclasses, thanks to runtime initialization.
+
+#### Structure
+
+- client
+- prototype interface
+- concrete prototype
+
+- Pros: removes initializations
+- Cons: complex objects are difficult to copy
