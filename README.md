@@ -74,3 +74,15 @@ Creates a copy of an object without being costly, reducing subclasses, thanks to
 
 - Pros: removes initializations
 - Cons: complex objects are difficult to copy
+
+### Singleton
+
+A single class create a single instance of that object, creating a global access point.
+
+#### Structure
+
+- client
+- singleton
+
+- Pros: intialized first time only
+- Cons: against single responsability principle
