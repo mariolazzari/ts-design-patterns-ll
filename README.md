@@ -55,4 +55,9 @@ It's useful when you do not not dependencies, like whn you are building libs of 
 - Product interface
 - Concrete products
 
+### Abstract factory
 
+Create family of related objects, using composition of subclasses
+
+- Pros: ensure all classes to work togheter
+- Cons: complex
