@@ -86,3 +86,24 @@ A single class create a single instance of that object, creating a global access
 
 - Pros: intialized first time only
 - Cons: against single responsability principle
+
+## Structural patterns
+
+Make incopatiblr interfaces to collaborate, composing objetcs and attaching new behaviors
+
+### Adapter
+
+Defines a bridge between two incopatible classes, using a single interface to join them.
+
+- Object adapter
+- Class adapter
+
+#### Structure
+
+- client interface
+- client
+- adapter
+- service
+
+- Pros: single responsability, open / close
+- Cons: complex
