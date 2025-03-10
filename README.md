@@ -121,3 +121,18 @@ Compose objects in a tree structure, like a single instance
 
 - Pros: conveniet tree structure, open/closed principle
 - Cons: difficult commin interface
+
+### Decorator
+
+Assings new behavior to objects, avoiding inheritance.
+
+#### Structure
+
+- client
+- component interface
+- concrete component
+- base decorator
+- concrete decorator
+
+- Pros: easier then inheritance
+- Cons: hard to setup
