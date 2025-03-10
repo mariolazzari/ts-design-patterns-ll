@@ -136,3 +136,18 @@ Assings new behavior to objects, avoiding inheritance.
 
 - Pros: easier then inheritance
 - Cons: hard to setup
+
+### Facade
+
+One single class in order to hide multiple classes complexity, structurating a system into layers.
+
+#### Structure
+
+- client
+- facade
+- subsystem classes
+
+- Pros: isolate complexity
+- Cons: coupled to app parts
+
+
