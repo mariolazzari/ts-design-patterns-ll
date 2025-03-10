@@ -107,3 +107,17 @@ Defines a bridge between two incopatible classes, using a single interface to jo
 
 - Pros: single responsability, open / close
 - Cons: complex
+
+### Composite
+
+Compose objects in a tree structure, like a single instance
+
+#### Structure
+
+- client
+- interface component
+- composite
+- leaf
+
+- Pros: conveniet tree structure, open/closed principle
+- Cons: difficult commin interface

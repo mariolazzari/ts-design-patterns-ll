@@ -4,7 +4,7 @@ import { Platform } from "./Platform";
 export class TikTok {
   constructor() {}
 
-  sheduleMedia() {
+  scheduleMedia() {
     console.log("Schedule media on TikTok");
   }
 }
@@ -17,6 +17,6 @@ export class TikTokAdapter extends Platform {
 
   postMedia(): void {
     console.log("TikTok adapter posted");
-    this.tikTok.sheduleMedia();
+    this.tikTok.scheduleMedia();
   }
 }
