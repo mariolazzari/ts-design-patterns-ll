@@ -150,4 +150,21 @@ One single class in order to hide multiple classes complexity, structurating a s
 - Pros: isolate complexity
 - Cons: coupled to app parts
 
+## Behavioral
 
+Loose coupling between objects, mantaining comunication between them
+
+### Iterator
+
+Travers collection, hiding its underlying structure
+
+### Structure
+
+- client
+- interator interface
+- concrete iterator
+- collection interface
+- concrete collection
+
+- Pros: single responsability & open/closed
+- Cons: collection only & less efficient
