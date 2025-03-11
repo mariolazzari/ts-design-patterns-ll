@@ -195,3 +195,17 @@ Defines the skeleton of an algorithm in an abstract super class: subclasses over
 - Pros: avoids duplication
 - Cons: hard to mantain
 
+### Command
+
+Object encapsulate request information, performing anction or triggering an event.
+
+#### Structure
+
+- client
+- invoker
+- revicer
+- command interface
+- concrete command
+
+- Pros: single responsibility and open/closed
+- Cons: complex
