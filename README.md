@@ -158,7 +158,7 @@ Loose coupling between objects, mantaining comunication between them
 
 Travers collection, hiding its underlying structure
 
-### Structure
+#### Structure
 
 - client
 - interator interface
@@ -168,3 +168,17 @@ Travers collection, hiding its underlying structure
 
 - Pros: single responsability & open/closed
 - Cons: collection only & less efficient
+
+### State
+
+Object oriented state machine that alters its behavior depending on state.
+
+#### Structure
+
+- client
+- context
+- state interface
+- concrete state
+
+- Pros: single responsability and open/closed
+- Cons: overkill for few states
