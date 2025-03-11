@@ -182,3 +182,16 @@ Object oriented state machine that alters its behavior depending on state.
 
 - Pros: single responsability and open/closed
 - Cons: overkill for few states
+
+### Template method
+
+Defines the skeleton of an algorithm in an abstract super class: subclasses override that method.
+
+#### Structure
+
+- abstract class
+- concrete classes
+
+- Pros: avoids duplication
+- Cons: hard to mantain
+
