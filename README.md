@@ -223,3 +223,18 @@ Rescrict direct communication between objects
 - Pros: reusability
 - Cons: overtime
 
+### Observer
+
+Objesct (subject) mantains a list of dependents (observers) and nofities them on every state changes.
+
+#### Strucure
+
+- cliemt
+- subject
+- observer interface
+- concrete observer
+
+- Pros: open/closed, runtime relashions
+- Cons: subscribers norified in random order
+
+ 
