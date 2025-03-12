@@ -209,3 +209,17 @@ Object encapsulate request information, performing anction or triggering an even
 
 - Pros: single responsibility and open/closed
 - Cons: complex
+
+### Mediator
+
+Rescrict direct communication between objects
+
+#### Structure
+
+- mediator
+- concrete mediator
+- components
+
+- Pros: reusability
+- Cons: overtime
+
