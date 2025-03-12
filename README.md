@@ -237,4 +237,16 @@ Objesct (subject) mantains a list of dependents (observers) and nofities them on
 - Pros: open/closed, runtime relashions
 - Cons: subscribers norified in random order
 
- 
+### Strategy
+
+ Defines a family of algorithms, put them in different classes and makes them interchangeable
+
+#### Structure
+
+- client
+- context
+- strtegy interface
+- concrete strategy
+
+- Pros: runtime swap 
+- Cons: overcomplicated
